@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-body{
+@import "tailwindcss";
+
+:root{
+--color-violet-500: oklch(0.606 0.25 292.717);
+}
+body {
 font-family: "Montserrat", sans-serif;
 }
-.root{
---color-violet-500: oklch(0.606 0.25 292.717);
+hr{
+    margin: 2rem 0rem;
 }
 /* container  */
 .container{
@@ -21,6 +26,14 @@ font-family: "Montserrat", sans-serif;
     padding: 0.5rem 1rem;
 }
 
-.primary-link{
-    background-color:var(--color-violet-500);
+.link-primary{
+    background-color: var(--color-violet-500);
+    border-radius: 0.5rem;
+    color:white 
+}
+.link-secondary{
+    color:var(--color-violet-500);
+    border-radius: 0.5rem;
+    border:1px solid var(--color-violet-500);
+    
 }
