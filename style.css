@@ -44,4 +44,16 @@ hr{
 .list-item-inline{
     display:inline;
     padding: 0rem 0.5rem;
+     
+}
+.navigation{
+    background-color:var(--color-violet-500);
+    color:white;
+    
+
+}
+.navigation .link{
+    color:white;
+    text-align:left;
+    
 }
