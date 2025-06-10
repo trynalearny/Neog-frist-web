@@ -49,11 +49,18 @@ hr{
 .navigation{
     background-color:var(--color-violet-500);
     color:white;
-    
-
+    padding: 1rem;
+}
+.navigation .nav-brand{
+    font-weight:bold;
+}
+.navigation .nav-pills{
+    text-align:right;
 }
 .navigation .link{
     color:white;
-    text-align:left;
-    
+     
+}
+.navigation .link-active{
+    font-weight:bold;
 }
