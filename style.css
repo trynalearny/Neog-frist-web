@@ -3,6 +3,7 @@
 
 :root{
 --color-violet-500: oklch(0.606 0.25 292.717);
+ --dark-gray: oklch(0.551 0.027 264.364);
 }
 body {
 font-family: "Montserrat", sans-serif;
@@ -65,4 +66,22 @@ hr{
 }
 .navigation .link-active{
     font-weight:bold;
+}
+/* header */
+.hero{
+    padding:2rem;
+
+}
+.hero .hero-img{
+    max-width:350px;
+    display:block;
+   margin:auto;
+}
+
+.hero .hero-heading {
+    padding-top:1rem;
+ color: var( --dark-gray);
+}
+.hero .hero-heading .heading-inverted{
+    color:var(--color-violet-500)
 }
