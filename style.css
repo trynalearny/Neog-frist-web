@@ -50,6 +50,8 @@ hr{
     background-color:var(--color-violet-500);
     color:white;
     padding: 1rem;
+    border-bottom-left-radius:1rem;
+        border-bottom-right-radius:1rem;
 }
 .navigation .nav-brand{
     font-weight:bold;
